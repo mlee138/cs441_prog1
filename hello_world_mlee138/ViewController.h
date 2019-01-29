@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+@property (nonatomic, strong) IBOutlet UILabel *label;
+@property (nonatomic, strong) IBOutlet UIButton *button;
+@property (nonatomic, assign) NSInteger toggle;
 
 @end
 
